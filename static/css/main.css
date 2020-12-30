@@ -12,19 +12,18 @@ body {
     min-height: 100vh;
 
     background: rgb(223,0,201);
-    background: linear-gradient(145deg, rgba(223,0,201,.5) 0%, rgba(134,0,118,.5) 100%);
+    background: url(../media/RcaZ.gif);
     background-repeat: no-repeat;
     background-size: cover;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    overflow: hidden;
 }
 
-html, body {
-	overflow: hidden;
-	
+html, body {	
+    overflow: hidden;
 }
 
 .card {
@@ -39,6 +38,7 @@ html, body {
 
     background: rgb(223,0,201);
     background: linear-gradient(145deg, rgb(253, 249, 249) 0%, rgb(221, 197, 218) 100%);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -58,7 +58,7 @@ h1 {
     letter-spacing: 3px;
     font-weight: 100;
 
-    color: rgba(134,0,118,1);
+    color: rgba(34, 34, 34, .8);
 }
 
 .box {
@@ -85,7 +85,7 @@ h1 {
     display: flex;
     align-items: center;
 
-    color: rgba(134,0,118,1);
+    color: rgba(34, 34, 34, .8);
     font-size: 20px;
     letter-spacing: 3px;
 
@@ -97,4 +97,5 @@ h1 {
 
 .box a:hover {
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, .1);
+    color: rgba(34, 34, 34, 1);
 }
